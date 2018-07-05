@@ -17,13 +17,14 @@
         <br>
         <button id="btn1" onclick="add()">ADD</button>
         <button id="btn2" onclick="sub()">SUBTRACTION</button>
-        <button id="btn3" onclick="mul()">MULTIPLICATION</button>
+        <button id="btn3" onclick="mult()">MULTIPLICATION</button>
         <button id="btn4" onclick="div()">DIVISION</button>
         
         <div id="result">
 
         </div>
         <script>
+<<<<<<< HEAD
             function add(){
                 var input1 = parseInt(document.getElementById("inp1").value);
                 var input2 = parseInt(document.getElementById("inp2").value);
@@ -31,6 +32,15 @@
                  document.getElementById("result").innerHTML = input1 + input2;
                 
                 
+=======
+            function mult()
+            {
+                let num1=document.getElementById("inp1").value;
+                let num2=document.getElementById("inp2").value;
+
+                let result=num1*num2;
+                document.getElementById("result").innerHTML=result;
+>>>>>>> multiply
             }
         </script>
     </body>
