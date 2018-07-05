@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+	<script>
+		function sub(){
+			document.getElementById("result").innerHTML = document.getElementById("inp1").value - 				document.getElementById("inp2").value;
+		}
+	</script>
+    </head>
+    <body>
+        <label>Enter Number</label>
+        <input id="inp1" type="number">
+        <label>Enter Number</label>
+        <input id="inp2" type="number">
+        <br>
+        <button id="btn1" onclick="add()">ADD</button>
+        <button id="btn2" onclick="sub()">SUBTRACTION</button>
+        <button id="btn3" onclick="mul()">MULTIPLICATION</button>
+        <button id="btn4" onclick="div()">DIVISION</button>
+        
+        <div id="result">
+
+        </div>
+        <script>
+            
+        </script>
+    </body>
+</html>
