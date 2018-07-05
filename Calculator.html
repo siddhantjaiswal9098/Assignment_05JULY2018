@@ -13,12 +13,27 @@
         <button id="btn1" onclick="add()">ADD</button>
         <button id="btn2" onclick="sub()">SUBTRACTION</button>
         <button id="btn3" onclick="mul()">MULTIPLICATION</button>
-        <button id="btn4" onclick="div()">DIVISION</button>
+        <button id="btn4" onclick="division()">DIVISION</button>
         
         <div id="result">
 
         </div>
         <script>
+            function division()
+                {
+                    let n1=document.getElementById("inp1").value;
+                    let n2=document.getElementById("inp2").value;
+
+                    if(n2==0)
+                    {
+                        alert("Cannot divide number by 0");
+                    }
+                    else{
+                        var ans= n1/n2;
+                    }
+
+                    document.getElementById("result").innerHTML=ans;
+                }
             
         </script>
     </body>
