@@ -1,38 +1,36 @@
 <html>
-    <head>
-        <title>
-            Calculator
-        </title>
-	<script src="script.js"></script>
-    </head>
-    <body bgcolor="lightgrey">
-        <h2 align="center">Calculator</h2>
-       
-        <div align="center">
-                <table cellspacing="10px">
-                        <tr>
-                            <td><label>Enter Number 1</label></td>
-                            <td><input id="inp1" type="number"><br></td>
-                        </tr>
-                        <tr>
-                            <td><label>Enter Number 2</label></td>
-                            <td><input id="inp2" type="number"></td>
-                        </tr>
-                    </table>
-       
+  <head>
+    <title>
+      Calculator
+    </title>
+    <script src="script.js"></script>
+  </head>
+  <body bgcolor="lightgrey">
+    <h2 align="center">Calculator</h2>
+    <div align="center">
+      <table cellspacing="10px">
+        <tr>
+          <td><label>Enter Number 1</label></td>
+          <td><input id="inp1" type="number"><br></td>
+        </tr>
+        <tr>
+	  <td><label>Enter Number 2</label></td>
+	  <td><input id="inp2" type="number"></td>
+	</tr>
+      </table>
     </div>
     <br>
-        <div align="center">
-                <button id="btn1" onclick="add()">SUM</button>
-                <button id="btn2" onclick="sub()">SUBTRACT</button>
-                <button id="btn3" onclick="mult()">MULTIPLY</button>
-                <button id="btn4" onclick="div()">DIVIDE</button><br>
-        </div>
-        
-        <div align="center">
-                <br><label>Answer</label>
-                <input id="result" type="number" disabled><br>
-
-        </div>
-    </body>
+    <div align="center">
+      <button id="btn1" onclick="add()">SUM</button>
+      <button id="btn2" onclick="sub()">SUBTRACT</button>
+      <button id="btn3" onclick="mult()">MULTIPLY</button>
+      <button id="btn4" onclick="div()">DIVIDE</button><br>
+    </div>
+    <div align="center">
+      <br>
+      <label>Answer</label>
+      <input id="result" type="number" disabled>
+      <br>
+    </div>
+  </body>
 </html>
